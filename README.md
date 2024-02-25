@@ -1,7 +1,7 @@
 # SIMD Multimedia Unit
-This repo contains VHDL files for simulating a single instruction multiple data multimedia unit. This unit is 4-stage pipelined, with data forwarding.To use this VHDL project, you will need to install Aldec HDL. The top level component is `Multimedia_SPU', and testbench for it is 'CPU_TB'. The testbench automatically loads the instruction from `instruction.txt' into the instruction buffer and when the simulation is finished a result file in txt will record the content of the 32 128 bits registers for result verification. 
+This repo contains VHDL files for simulating a single instruction multiple data multimedia unit. This unit is 4-stage pipelined, with data forwarding.To use this VHDL project, you will need to install Aldec HDL. The top level component is `Multimedia_SPU`, and testbench for it is `CPU_TB`. The testbench automatically loads the instruction from `instruction.txt` into the instruction buffer and when the simulation is finished a result file in txt will record the content of the 32 128 bits registers for result verification. 
 ## ALU verification
-A separate self-checking testbench `ALU_tb' for ALU component is also provided.
+A separate self-checking testbench `ALU_tb` for ALU component is also provided.
 
 ## Instruction set
 Below is the list of implemented instruction set
