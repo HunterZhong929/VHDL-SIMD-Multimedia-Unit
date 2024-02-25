@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd" 
+MESSAGE "Compile Entity "ALU_TB"" 
+MESSAGE "Compile Architecture "Behavioral" of Entity "ALU_TB"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]" 

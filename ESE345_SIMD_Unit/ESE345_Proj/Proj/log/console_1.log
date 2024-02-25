@@ -1,0 +1,1413 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Breakpoint set on signal "/ALU_TB/instruction".
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5604 kB (elbread=427 elab2=5037 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:06 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Breakpoint set on signal "/ALU_TB/instruction".
+# add wave -noreg {/ALU_TB/instruction}
+# add wave -noreg {/ALU_TB/input1}
+# add wave -noreg {/ALU_TB/input2}
+# add wave -noreg {/ALU_TB/input3}
+# add wave -noreg {/ALU_TB/output}
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# KERNEL: Stopped at time 10 ns + 1.
+# Stopped at breakpoint on signal "/ALU_TB/instruction" (Event condition).
+# Breakpoint on signal "/ALU_TB/instruction" cleared.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5604 kB (elbread=427 elab2=5037 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:06 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 130 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 150 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 150 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_main.vhd
+# Compile Entity "ALU"
+# Compile Architecture "Behavioral" of Entity "ALU"
+# Error: COMP96_0264: ALU_main.vhd : (39, 13): Signal "output" in the sensitivity list must denote a signal that can be read.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_main.vhd
+# Compile Entity "ALU"
+# Compile Architecture "Behavioral" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+run
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5605 kB (elbread=427 elab2=5038 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:12 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0100
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0110
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1000
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1100
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 130 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5604 kB (elbread=427 elab2=5037 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:13 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 130 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 150 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 150 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_main.vhd
+# Compile Entity "ALU"
+# Compile Architecture "Behavioral" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5604 kB (elbread=427 elab2=5037 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:17 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 130 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 150 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 150 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5604 kB (elbread=427 elab2=5037 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:17 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 130 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 150 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 150 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5604 kB (elbread=427 elab2=5037 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:18 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 130 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 170 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 170 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 170 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+run
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5604 kB (elbread=427 elab2=5037 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:20 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5604 kB (elbread=427 elab2=5037 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:20 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 130 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 150 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 150 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5605 kB (elbread=427 elab2=5038 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:22 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0000
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 160 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 160 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5605 kB (elbread=427 elab2=5038 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:24 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0000
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 160 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 160 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5605 kB (elbread=427 elab2=5038 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:26 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0000
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 160 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 160 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5607 kB (elbread=427 elab2=5040 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:30 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0000
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0100
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0110
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1000
+# EXECUTION:: Time: 180 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 190 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 210 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 290 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 300 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 300 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_main.vhd
+# Compile Entity "ALU"
+# Compile Architecture "Behavioral" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6630 kB (elbread=427 elab2=6062 kernel=140 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:31 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0000
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0100
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0110
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1000
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1100
+# EXECUTION:: Time: 130 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 160 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 160 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_main.vhd
+# Compile Entity "ALU"
+# Compile Architecture "Behavioral" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_main.vhd
+# Compile Entity "ALU"
+# Compile Architecture "Behavioral" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5605 kB (elbread=427 elab2=5039 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:35 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0000
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 160 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 160 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_main.vhd
+# Compile Entity "ALU"
+# Compile Architecture "Behavioral" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+run
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5605 kB (elbread=427 elab2=5039 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:38 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0000
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 160 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 160 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_main.vhd
+# Compile Entity "ALU"
+# Compile Architecture "Behavioral" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6629 kB (elbread=427 elab2=6062 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:39 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0000
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1000
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1 out of range (0 to 2147483647).
+# KERNEL: Time: 150 ns,  Iteration: 2,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 150 ns + 2.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_main.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_main.vhd
+# Compile Entity "ALU"
+# Compile Architecture "Behavioral" of Entity "ALU"
+# Compile success 0 Errors 0 Warnings  Analysis time :  46.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5605 kB (elbread=427 elab2=5039 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:39 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0000
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 160 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 160 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5606 kB (elbread=427 elab2=5039 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:42 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0000
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 180 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 190 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 200 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 200 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 200 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5605 kB (elbread=427 elab2=5039 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:43 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0000
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 130 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 170 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 170 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 170 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5605 kB (elbread=427 elab2=5039 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:46 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0000
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 160 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 160 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5605 kB (elbread=427 elab2=5039 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:49 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0000
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 50 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 70 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 90 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 130 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 170 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 170 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 170 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ALU_TB ALU_TB Behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Proj -2002  $dsn/src/ALU_tb.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd
+# Compile Entity "ALU_TB"
+# Compile Architecture "Behavioral" of Entity "ALU_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5605 kB (elbread=427 elab2=5039 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\haora\Desktop\ESE345_Proj\Proj\src\wave.asdb
+#  2:53 PM, Sunday, October 29, 2023
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/haora/Desktop/ESE345_Proj/Proj/src/wave.asdb'.
+run
+# EXECUTION:: WARNING: Error at opcode = 0000
+# EXECUTION:: Time: 10 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0001
+# EXECUTION:: Time: 20 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0010
+# EXECUTION:: Time: 30 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0011
+# EXECUTION:: Time: 40 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0101
+# EXECUTION:: Time: 60 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 0111
+# EXECUTION:: Time: 80 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1001
+# EXECUTION:: Time: 100 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1010
+# EXECUTION:: Time: 110 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1011
+# EXECUTION:: Time: 120 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1101
+# EXECUTION:: Time: 140 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1110
+# EXECUTION:: Time: 150 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# EXECUTION:: WARNING: Error at opcode = 1111
+# EXECUTION:: Time: 160 ns,  Iteration: 0,  Instance: /ALU_TB,  Process: line__36.
+# RUNTIME: Fatal Error: RUNTIME_0067 ALU_main.vhd (234): Value -1073823745 out of range (0 to 2147483647).
+# KERNEL: Time: 160 ns,  Iteration: 1,  Instance: /ALU_TB/uut,  Process: line__39.
+# KERNEL: Stopped at time 160 ns + 1.
+# VSIM: Error: Fatal error occurred during simulation.

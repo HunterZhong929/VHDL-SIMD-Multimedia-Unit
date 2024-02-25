@@ -1,0 +1,8 @@
+Repaired file: C:/Users/haora/Desktop/ESE345_Proj/Proj/src/CPU.bde:
+
+____________________________________________________________________________________________________
+Reformulated legacy array or record nets:
+	net instruction_input
+	pin load_IB
+	terminal instruction_input
+

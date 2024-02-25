@@ -1,0 +1,16 @@
+.\src\IF_stage.vhd
+.\src\ID_stage.vhd
+.\src\EX_stage.vhd
+.\src\IF_ID_reg.vhd
+.\src\ID_EX_reg.vhd
+.\src\EX_WB_reg.vhd
+.\src\ALU_main.vhd
+.\src\ALU_tb.vhd
+.\src\reg_file.vhd
+.\src\instr_dcd.vhd
+.\src\data_fowarding.vhd
+.\src\ALU_mux.vhd
+.\src\mux_128bit.vhd
+.\src\Multimedia_SPU.vhd
+.\src\IB_TB.vhd
+.\src\CPU_TB.vhd

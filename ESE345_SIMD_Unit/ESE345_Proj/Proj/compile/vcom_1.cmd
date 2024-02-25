@@ -1,0 +1,1 @@
+-w -erf C:/Users/haora/Desktop/ESE345_Proj/Proj/compile/Proj.erf -d C:/Users/haora/Desktop/ESE345_Proj/Proj/compile -s C:/Users/haora/Desktop/ESE345_Proj/library.cfg -j C:/Users/haora/Desktop/ESE345_Proj/Proj/projlib.cfg -work Proj -O3 -e 100 -work Proj -2002 C:/Users/haora/Desktop/ESE345_Proj/Proj/src/ALU_tb.vhd 

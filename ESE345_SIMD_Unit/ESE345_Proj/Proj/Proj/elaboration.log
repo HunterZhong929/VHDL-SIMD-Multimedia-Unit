@@ -1,0 +1,47 @@
+Active-HDL 13.0.376.8320 2023-12-07 21:23:00
+
+Elaboration top modules:
+Architecture                  tb_arch(CPU_TB)
+
+
+------------------------------------------------------------------------------------------------------
+Entity              | Architecture | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------------
+CPU_TB              | tb_arch      | proj    |      | 13.0.376.8320 (Windows64) | -dbg -2008
+CPU                 | structural   | proj    |      | 13.0.376.8320 (Windows64) | -dbg -2008
+Instruction_Buffer  | Behavioral   | proj    |      | 13.0.376.8320 (Windows64) | -dbg -2008
+IF_ID_reg           | Behavioral   | proj    |      | 13.0.376.8320 (Windows64) | -dbg -2008
+ID_stage            | Behavioral   | proj    |      | 13.0.376.8320 (Windows64) | -dbg -2008
+ID_EX_reg           | Behavioral   | proj    |      | 13.0.376.8320 (Windows64) | -dbg -2008
+EX_stage            | Behavioral   | proj    |      | 13.0.376.8320 (Windows64) | -dbg -2008
+data_forwarding     | dataflow     | proj    |      | 13.0.376.8320 (Windows64) | -dbg -2008
+EX_WB_reg           | Behavioral   | proj    |      | 13.0.376.8320 (Windows64) | -dbg -2008
+Register_File       | Behavioral   | proj    |      | 13.0.376.8320 (Windows64) | -dbg -2008
+Instruction_Decoder | Behavioral   | proj    |      | 13.0.376.8320 (Windows64) | -dbg -2008
+ALU                 | Behavioral   | proj    |      | 13.0.376.8320 (Windows64) | -dbg -2008
+ALU_mux             | Behavioral   | proj    |      | 13.0.376.8320 (Windows64) | -dbg -2008
+mux_128bit          | Behavioral   | proj    |      | 13.0.376.8320 (Windows64) | -dbg -2008
+------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+VHDL Package                       | Library | Info | Compiler Version          | Compilation Options
+------------------------------------------------------------------------------------------------------
+standard                           | std     |      |                           | <unavailable>
+TEXTIO                             | std     |      | 13.0.376.8320 (Windows64) |  -2019
+std_logic_1164                     | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+NUMERIC_STD                        | ieee    |      | 13.0.376.8320 (Windows64) |  -2008
+Instruction_Buffer_Array           | proj    |      | 13.0.376.8320 (Windows64) | -O3 -2008
+register_file_data_types           | proj    |      | 13.0.376.8320 (Windows64) | -O3 -2008
+ENV                                | std     |      | 13.0.376.8320 (Windows64) |  -2019
+STD_LOGIC_TEXTIO                   | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+std_logic_arith                    | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+STD_LOGIC_UNSIGNED                 | ieee    |      | 13.0.376.8320 (Windows64) | <unavailable>
+------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+Library                            | Comment
+------------------------------------------------------------------------------------------------------
+ieee                               | Standard IEEE packages library
+proj                               | None
+std                                | Standard VHDL library
+------------------------------------------------------------------------------------------------------

@@ -1,0 +1,29 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Proj
+[Library]
+Proj=.\Proj\Proj.lib
+[$LibMap$]
+Proj=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=C:\Users\haora\Desktop
+[Files.Data]
+.\src\ALU_main.vhd=VHDL Source Code
+.\src\ALU_tb.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=alu_tb|Behavioral|0
+ShowHide=ShowTopLevel
+Selected=
+[Files]
+/ALU_main.vhd=-1
+/ALU_tb.vhd=-1

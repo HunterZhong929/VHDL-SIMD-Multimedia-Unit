@@ -1,0 +1,36 @@
+timestamp=1698605614611
+
+[~A]
+ModifyID=59
+Version=74
+
+[~MFT]
+0=8|0Proj.mgf|358861|342181
+1=2|1Proj.mgf|416366|412762
+3=2|3Proj.mgf|50696|44533
+
+[alu]
+A/behavioral=A/Behavioral 21|../src/ALU_main.vhd|17|1*359630
+BinW64/behavioral=3*44533
+I=0*1355
+I/behavioral=I/Behavioral 0*319680
+M=11|2|vef|1698150014268|../src/ALU_main.vhd|0*901*0x9927df7a0a6fc1f5bab0770eab40e145a491b3b2|0*1279*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1698604797795|../src/ALU_main.vhd|0*312342*0xb5c3deee3dc6bec64f0d6adffdaadc04f0b1d436|0*319590*0x20116f55b147878295aeff36dce7fc50
+R=../src/ALU_main.vhd|8
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|fdc9c85601beb4171a6a25c637e2168e854c81f6b1c7078a0f0ffbbfd165a376
+Version/behavioral=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff403aeb828b30906200950b6735171172a
+
+[alu_tb]
+A/behavioral=A/Behavioral 21|../src/ALU_tb.vhd|9|1*416366
+BinW64/behavioral=3*50696
+I=0*99987
+I/behavioral=I/Behavioral 0*358861
+M=11|2|vef|1698593568875|../src/ALU_tb.vhd|0*99715*0x3f65633355caf1e3c82f4f05bd58125d2179c77c|0*99910*0x23b75c12e3e89f2ef000564498faa8c2
+M/behavioral=M/Behavioral 21|2|vef|1698605614573|../src/ALU_tb.vhd|0*351298*0x9c7947b534347777674403df3706ddf0fb3ecf62|0*358770*0x20116f55b147878295aeff36dce7fc50
+R=../src/ALU_tb.vhd|6
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|b5ca7ba7583dcb786be856c479ad2f644d02f55295d1e4206d58987657ddf757
+Version/behavioral=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|35f8e56ee514308d50318f7abb190927faf8176ad6902a7357df79bb1a85bff43a4ca1045183acd3afa8209a53cf1ad0
+
+[~U]
+alu=ALU 11|0*691|
+alu_tb=ALU_TB 11|0*99597|

@@ -1,0 +1,15 @@
+i<>.\src\ALU_main.vhd
+i<>.\src\ALU_tb.vhd
+i<>.\src\IF_stage.vhd
+i<>.\src\ID_stage.vhd
+i<>.\src\data_fowarding.vhd
+i<>.\src\ALU_mux.vhd
+i<>.\src\mux_128bit.vhd
+i<>.\src\ID_EX_reg.vhd
+i<>.\src\ID_IF_reg.vhd
+i<>.\src\EX_WB_reg.vhd
+i<>.\src\Multimedia_SPU.vhd
+i<>.\src\EX_stage.vhd
+i<>.\src\instruction_decoder.vhd
+i<>.\src\IB_TB.vhd
+i<>.\src\CPU_TB.vhd
